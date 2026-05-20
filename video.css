@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    background: #333;
+} 
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+video {
+    width: 100%;
+    box-sizing: border-box;
+}

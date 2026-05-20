@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "terror";
+    src: url(mi_fuente/HelpMe.ttf);
+}
+body {
+    margin:0;
+    padding: 0;
+    background: #18181f;
+    color: #ddd;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5%
+}
+.box {
+    border: 4px solid #ababab;
+    border-radius: 5px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contenedor.cuadro_texto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro_texto {
+    border: 3px solid #f22;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 5px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    font-family: "terror";
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 15px
+}
+
+.p3 {
+    font-family: "terror";
+    letter-spacing: 10px;
+    margin: 0 0 0 7px;
+}
+
+.contenedor_enlace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;;
+}
+a {
+    color: #f22;
+    font-family: "terror";
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.contenedor_enlace:hover {
+background: #f22;
+color:#18181f;
+}
+
+.contenedor_enlace:hover a {
+    color: #18181f;
+}
